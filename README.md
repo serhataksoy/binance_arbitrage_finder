@@ -13,12 +13,11 @@ This project requires setting up a specific environment to execute high-frequenc
    - `arbitrage_check.py`
 
 ## Structure
-
+![alt text](Structure.png)
 ### Summary
 
 The case study demonstrates a method to identify and exploit arbitrage opportunities using assets with low liquidity. It outlines the process of selecting assets, collecting data via WebSocket connections and threads, organizing this data with RabbitMQ, and performing data manipulation to uncover arbitrage paths. The findings are saved and analyzed from a CSV file, guiding the identification of profitable opportunities.
 
-Note: This code not us
 
 #### Key Steps:
 
